@@ -1,0 +1,32 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# Flask environment files
+*.env
+.flaskenv
+
+# SQLite database files (if using SQLite)
+*.db
+
+# Log files
+*.log
+
+# IDE files (for common IDEs like VS Code, PyCharm)
+.idea/
+.vscode/
+*.iml
+
+# Test output
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
